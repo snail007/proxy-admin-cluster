@@ -1,11 +1,11 @@
 # About ProxyAdmin Cluster Edition
 ProxyAdmin cluster version, is a powerful proxy service tool [snail007 / goproxy] (https://github.com/snail007/goproxy) control panel, run it, one second let you have a proxy service to control massive machines, friendly The interactive interface, Newbie can also easily get started, so that you can use it handy and feel comfortable.
 
-This panel is used for a fee, please contact the official telegram group for purchase: [join](https://t.me/snail007_goproxy)
+This panel is used for a fee, please contact the official telegram group for purchase: [join](https://t.me/snail007_goproxy)  
 
-For the first use, the id.txt file will be generated in the following directory, and the content inside can be bound to the authorized platform.
-Windows: C: \ gpa \ id.txt
-Linux & MacOS: /etc/gpa/id.txt
+For the first use, the id.txt file will be generated in the following directory, and the content inside can be bound to the authorized platform.  
+Windows: C: \ gpa \ id.txt  
+Linux & MacOS: /etc/gpa/id.txt  
 
 <hr>
 
