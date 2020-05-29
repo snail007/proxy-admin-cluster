@@ -1,5 +1,11 @@
-# About ProxyAdmin
-ProxyAdmin is a powerful web console of [snail007/goproxy](https://github.com/snail007/goproxy) .
+# About ProxyAdmin Cluster Edition
+ProxyAdmin cluster version, is a powerful proxy service tool [snail007 / goproxy] (https://github.com/snail007/goproxy) control panel, run it, one second let you have a proxy service to control massive machines, friendly The interactive interface, Newbie can also easily get started, so that you can use it handy and feel comfortable.
+
+This panel is used for a fee, please contact the official telegram group for purchase: [join](https://t.me/snail007_goproxy)
+
+For the first use, the id.txt file will be generated in the following directory, and the content inside can be bound to the authorized platform.
+Windows: C: \ gpa \ id.txt
+Linux & MacOS: /etc/gpa/id.txt
 
 <hr>
 
@@ -9,32 +15,29 @@ ProxyAdmin is a powerful web console of [snail007/goproxy](https://github.com/sn
 
 ## Preview
 
-### HTTP(S) Proxies
-![](/res/images/http_en.gif)
+### Dashboard  
 
-### Socks5 Proxies
-![](/res/images/socks5_en.gif)
+![](/res/images/cluster1.png)  
 
-### Internal NAT
-![](/res/images/nat_en.gif)
+### Nodes Group Management  
 
-### Remote Desktop - VNC & Web-SSH
-![](/res/images/rdp.gif)
+![](/res/images/cluster2.png)  
 
-### DIY Service
-![](/res/images/diy_en.gif)
+### Services Management  
 
-### Client Arguments
-![](/res/images/client_args.gif)
+![](/res/images/cluster3.png)  
 
-### View Logging
-![](/res/images/logging.gif)
+### Nodes Management  
 
-### Debug Mode
-![](/res/images/debugging.gif)
+State explanation:  
+online: All services of this group are running normally on this node.  
+exception: All the services of this group are running abnormally on this node. You can click "Abnormal" to view the specific service failure and failure information.    
+offline: The node is not online, or the node cannot communicate with the control panel.  
 
-### Full Demo
-![](/res/images/demo_cn.gif)
+![](/res/images/cluster4.png)   
+![](/res/images/cluster5.png)   
+![](/res/images/cluster6.png)   
+
 
 ## Start Using
 
@@ -143,5 +146,3 @@ Windows can be managed using the system's Service Manager.
 ## Thanks
 
 [Back to the light](https://gitee.com/yinqi) The back-end template provided us a comfortable interactive experience.
-
-[GoFrame](https://github.com/gogf/gf) provides a convenient and powerful framework to make the agent backstage development more fluent.
