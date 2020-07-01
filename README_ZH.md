@@ -50,7 +50,7 @@ Linux & MacOS : /etc/gpa/id.txt
 提示:所有操作需要root权限。 
 
 ```shell  
-curl -L http://mirrors.host900.com:9090/snail007/proxy-admin-cluster/install_auto.sh | bash  
+curl -L https://mirrors.host900.com/snail007/proxy-admin-cluster/install_auto.sh | bash  
 ```  
 
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
@@ -61,7 +61,7 @@ curl -L http://mirrors.host900.com:9090/snail007/proxy-admin-cluster/install_aut
 
 选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy-admin-cluster/releases)
 
-如果上面不能正常下载，点击这里[镜像下载](http://mirrors.host900.com:9090/snail007/proxy-admin-cluster/)
+如果上面不能正常下载，点击这里[镜像下载](https://mirrors.host900.com/snail007/proxy-admin-cluster/)
 
 ### Linux && MacOS
 
