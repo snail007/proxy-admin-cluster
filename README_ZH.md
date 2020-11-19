@@ -1,11 +1,17 @@
 # 关于 ProxyAdmin 集群版
 ProxyAdmin 集群版，是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你拥有控制海量机器上的proxy服务，友好的交互界面，小白也能轻松上手，让你用起来得心应手，心情舒畅。
 
-此面板是收费使用，购买请联系官方QQ售前群：624502196  
+此面板是收费使用，请购买后激活使用。
 
-首次使用，会在下面的目录生成id.txt文件，把里面的内容绑定到授权平台即可。  
+首次使用，直接在命令行执行proxy-admin，等待程序自己退出，会在下面的目录生成id.txt文件，把里面的内容绑定到授权平台即可。   
 Windows：C:\gpa\id.txt  
 Linux & MacOS : /etc/gpa/id.txt  
+
+购买方式：
+  
+1. 授权平台可以在线自助购买，点击进入[授权平台](https://gpm.host900.com/)。
+
+2. 特殊需求请发送邮件到：`arraykeys@gmail.com`  
 
 <hr>
 
