@@ -9,7 +9,7 @@ cd /tmp/proxy
 echo -e "\n>>> downloading ... $F\n"
 
 manual="https://snail.gitee.io/proxy/manual/zh/"
-LAST_VERSION=$(curl --silent "https://mirrors.host900.com/https://api.github.com/repos/snail007/proxy-admin-cluster/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
+LAST_VERSION=$(curl --silent "https://mirrors.host900.com/https://api.github.com/repos/snail007/proxy-admin-cluster/releases/latest" | grep -Po '"tag_name":"\K.*?(?=")')
 wget  -t 1 "https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/releases/download/${LAST_VERSION}/$F"
 
 echo -e ">>> installing ... \n"
