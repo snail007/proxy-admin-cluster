@@ -9,23 +9,21 @@ Linux & MacOS: /etc/gpa/id.txt
 
 <hr>
 
-[中文简介](/README_ZH.md)
-
-[snail007/goproxy manual](https://snail007.github.io/goproxy/manual/#/)
+[Manual](https://snail.gitee.io/proxy/manual/#/?id=_11-cluster) ｜ [中文简介](/README_ZH.md)｜ [参考手册](https://snail.gitee.io/proxy/manual/zh/#/?id=_11%e9%9b%86%e7%be%a4%e7%ae%a1%e7%90%86)
 
 ## Preview
 
 ### Dashboard  
 
-![](/res/images/cluster1.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster1.png)  
 
 ### Nodes Group Management  
 
-![](/res/images/cluster2.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster2.png)  
 
 ### Services Management  
 
-![](/res/images/cluster3.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster3.png)  
 
 ### Nodes Management  
 
@@ -34,9 +32,9 @@ online: All services of this group are running normally on this node.
 exception: All the services of this group are running abnormally on this node. You can click "Abnormal" to view the specific service failure and failure information.    
 offline: The node is not online, or the node cannot communicate with the control panel.  
 
-![](/res/images/cluster4.png)   
-![](/res/images/cluster5.png)   
-![](/res/images/cluster6.png)   
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster4.png)   
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster5.png)   
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster6.png)   
 
 
 ## Start Using
@@ -48,7 +46,7 @@ If your VPS is a Linux 64-bit system, you only need to execute the following sen
 Tip: All operations require root privileges.
 
 ```shell
-curl -L https://raw.githubusercontent.com/snail007/proxy-admin-cluster/master/install_auto.sh | bash
+curl -L https://mirrors.host900.com/https://raw.githubusercontent.com/snail007/proxy-admin-cluster/master/install_auto.sh | bash
 ```
 
 The installation is complete, the configuration directory is /etc/gpa. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
@@ -74,7 +72,7 @@ The root account is executed:
 
 The administrator opens goproxy_helper.exe and can install/uninstall/restart the service with one click.
 
-![](/res/images/gh.png)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/gh.png)
 
 2. Command line installation
 

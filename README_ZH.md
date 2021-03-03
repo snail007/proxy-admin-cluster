@@ -15,9 +15,24 @@ Linux & MacOS : /etc/gpa/id.txt
 
 <hr>
 
-[English](/README_ZH.md)
+[Manual](https://snail.gitee.io/proxy/manual/#/?id=_11-cluster) ｜ [中文简介](/README_ZH.md)｜ [参考手册](https://snail.gitee.io/proxy/manual/zh/#/?id=_11%e9%9b%86%e7%be%a4%e7%ae%a1%e7%90%86)
 
-[snail007/goproxy 手册](https://snail007.github.io/goproxy/manual/zh)
+手册同时适用于命令行goproxy和proxyadmin面板，控制面板只是命令行goproxy的界面化，使用参数完全一样。
+
+## 国内下载
+
+请在github的下载链接前面加上: `https://mirrors.host900.com/` 。
+
+比如`v1.4`的github下载链接是：
+
+`https://github.com/snail007/proxy-admin-cluster/releases/download/v1.4/proxy-admin_linux-amd64.tar.gz`
+
+那么国内下载地址就是：
+
+`https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/releases/download/v1.4/proxy-admin_linux-amd64.tar.gz`
+
+此地址也适用于wget，curl直接命令行下载。
+
 
 ## 加入我们
 
@@ -26,22 +41,22 @@ Linux & MacOS : /etc/gpa/id.txt
 ## 预览
 
 ### 概况
-![](/res/images/cluster1.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster1.png)  
 
 ### 机器组管理
-![](/res/images/cluster2.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster2.png)  
 
 ### 服务管理
-![](/res/images/cluster3.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster3.png)  
 
 ### 节点管理
 状态解释：  
 在线：该组的所有服务在该节点上运行正常。  
 异常：该组的服务在该节点上运行有失败的，可以点击“异常”查看具体什么服务运行失败和失败信息。  
 离线：节点不在线，或者节点无法和控制面板通讯。  
-![](/res/images/cluster4.png)  
-![](/res/images/cluster5.png)  
-![](/res/images/cluster6.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster4.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster5.png)  
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/cluster6.png)  
 
 ## 开始使用
 
@@ -56,7 +71,7 @@ Linux & MacOS : /etc/gpa/id.txt
 提示:所有操作需要root权限。 
 
 ```shell  
-curl -L https://mirrors.host900.com/snail007/proxy-admin-cluster/install_auto.sh | bash  
+curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/install_auto.sh | bash  
 ```  
 
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
@@ -67,7 +82,7 @@ curl -L https://mirrors.host900.com/snail007/proxy-admin-cluster/install_auto.sh
 
 选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy-admin-cluster/releases)
 
-如果上面不能正常下载，点击这里[镜像下载](https://mirrors.host900.com/snail007/proxy-admin-cluster/)
+国内请参考上面的国内下载。
 
 ### Linux && MacOS
 
@@ -84,7 +99,7 @@ root账号执行：
 
 管理员打开 goproxy_helper.exe，可以一键安装/卸载/重启服务。
 
-![](/res/images/gh.png)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-cluster/blob/master/res/images/gh.png)
 
 2. 命令行安装
 
