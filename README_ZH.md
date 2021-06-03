@@ -168,6 +168,38 @@ MacOS下面可以通过命令管理。
 
 Windows下面可以使用系统的服务管理器管理。
 
+## 升级更新
+
+### Linux
+用`root`打开一个终端。
+
+```shell
+proxy-admin update
+```
+
+已经安装了最新的版本，默认不会更新，如果想强制更新加上 -f 参数即可。
+
+```shell
+proxy-admin update -f
+```
+
+### Windows
+用`管理员`权限打开命令提示符窗口。
+
+```bat
+c:\
+cd gpa
+proxy-admin update
+```
+
+已经安装了最新的版本，默认不会更新，如果想强制更新加上 -f 参数即可。
+
+```shell
+c:\
+cd gpa
+proxy-admin update -f
+```
+
 ## 鸣谢
 
 [笔下光年](https://gitee.com/yinqi) 提供的后台模板给我们带来舒畅的交互体验.
