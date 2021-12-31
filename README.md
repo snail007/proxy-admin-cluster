@@ -131,6 +131,10 @@ proxy-admin stop
 
 proxy-admin restart
 
+proxy-admin backup     backup data
+
+proxy-admin restore    restore data
+
 2. Manage using system service management tools.
 
 The proxy-admin system service name is: proxyadmin
